@@ -1,0 +1,68 @@
+alive-players: 0
+event-world: "-"
+min-y: -64
+money-per-point: 5000
+# ---------------------------------------------------------------------------------
+# ------------------------------ Messages  ----------------------------------------
+# ---------------------------------------------------------------------------------
+
+game-start-title-message: "&a&lGAME STARTED"
+game-start-subtitle-message: "&rDo what &cK00Kie&r says to win"
+
+
+# ---------------------------------------------------------------------------------
+# ------------------------------ Modes Config -------------------------------------
+# ---------------------------------------------------------------------------------
+
+allow-games-to-repeat: false
+play-all-games: true
+modes-to-play: 15 # number of modes to play if play-all-games is set to false
+
+all-modes: # don't add any, you can remove any unwanted
+  - "craft"
+  - "parkour"
+  - "void"
+  - "stop"
+  - "cake"
+  - "sneak"
+  - "shoot"
+  - "eat"
+  - "shear"
+  - "milk"
+  - "breed"
+  - "color"
+  - "minecart"
+  - "disk"
+  - "look"
+
+  # all available modes if any got deleted:
+  #  - "craft"        # Players have to craft an item
+  #  - "parkour"      # Parkour to the diamond block
+  #  - "stop"         # Stop moving
+  #  - "void"         # jump in the void
+  #  - "cake"         # eat from the cake
+  #  - "shoot"        # get bow arrow and shoot targets from the top
+  #  - "eat"          # eat the only healthy food
+  #  - "shear"        # shear a sheep
+  #  - "milk"         # milk a cow
+  #  - "breed"        # breed 2 chickens
+  #  - "color"        # stand on the right color
+  #  - "minecart"     # get on the minecart
+  #  - "disk"         # put the disk in the music disk
+  #  - "look"         # look to the sky
+  #  - "sneak"        # sneak
+
+# ---------------------------------------------------------------------------------
+# ------------------------------ Don't Edit ---------------------------------------
+# ---------------------------------------------------------------------------------
+
+current-mode: "none"
+mode-list:
+  - ""
+spawn-location: 0
+losing-location: 0
+winning-location: 0
+won-players:
+  -
+scores:
+  -
