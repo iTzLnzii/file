@@ -1,0 +1,45 @@
+name: K00KieSays
+version: '${project.version}'
+main: org.example.duck.k00kiesays.K00KieSays
+api-version: '1.20'
+commands:
+  event-start:
+    description: Starts the event
+    usage: /<command>
+    permission: op
+  set-lose:
+    description: Set the losing location
+    usage: /<command>
+    permission: op
+  set-win:
+    description: Set the winning location
+    usage: /<command>
+    permission: op
+  set-start:
+    description: Set the starting location
+    usage: /<command>
+    permission: op
+#  schematics:
+#    description: Use to copy and paste
+#    usage: /<command>
+#    permission: op
+  reload:
+    description: reloads the config
+    usage: /<command>
+    permission: op
+  map:
+    description: reloads the config
+    usage: /<command> set name
+    permission: op
+  reward:
+    description: set the reward given to player for each match point
+    usage: /<command> number
+    permission: op
+  event-end:
+    description: ends event, use in emergencies
+    usage: /<command> number
+    permission: op
+  setminy:
+    description: sets the minimum Y level for the event
+    usage: /<command>
+    permission: op
